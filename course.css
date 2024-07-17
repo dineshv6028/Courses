@@ -1,0 +1,57 @@
+
+.nav-link, .navbar-brand{
+    color: white !important;
+}
+
+.hero-section {
+    background: url('./assets/images/elearning.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+}
+
+.logo{
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.hero-content{
+    background-color: rgb(190, 176, 176);
+}
+
+.courses-section .card {
+    margin-bottom: 30px;
+}
+
+.categories-section, .languages-section{
+    padding-top: 0px !important;
+}
+
+.categories-card{
+    display: flex;
+    background-image: url('./assets/images/cte_bg.jpg');
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.languages-card{
+    display: flex;
+    background-image: url('./assets/images/lng_bg.jpg');
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+}
